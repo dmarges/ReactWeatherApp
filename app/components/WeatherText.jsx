@@ -5,7 +5,7 @@ var WeatherText = (props) => {
 		temp = props.temp;
 		
 	return (
-		<p>The weather in {city} is {temp}</p>
+		<h3 className="text-center">The weather in {city} is {temp}</h3>
 	);
 };
 
